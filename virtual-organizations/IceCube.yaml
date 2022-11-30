@@ -56,4 +56,14 @@ DataFederations:
         AllowedCaches:
           - ANY
         AllowedOrigins:
-          - IceCube_StashCache_origin
+          - IceCube_StashCache_origin  
+      - Path: /icecube/NRP-UNL/PROTECTED
+        Authorizations:
+          - SciTokens:
+              Issuer: https://osg-htc.org/ospool
+              Base Path: /ospool/PROTECTED
+              Map Subject: False
+        AllowedOrigins:
+          - NEBRASKA_NRP_OSDF_ORIGIN
+        AllowedCaches:
+          - ANY
