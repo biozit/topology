@@ -4,7 +4,7 @@ GroupDescription: Services located at the SingAREN
 GroupID: 1353
 Resources:
   SINGAPORE_INTERNET2_OSDF_CACHE:
-    Active: true
+    Active: false
     Description: SingAREN Cache
     ID: 1443
     ContactLists:
