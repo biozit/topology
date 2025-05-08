@@ -33,6 +33,6 @@ Resources:
         Description: Pelican cache server
     AllowedVOs:
       - LIGO
-    DN: /DC=org/DC=terena/DC=tcs/C=IT/ST=Roma/O=Istituto Nazionale di Fisica Nucleare/CN=osdfcache.cr.cnaf.infn.it
+    DN: /DC=org/DC=terena/DC=tcs/C=IT/ST=Roma/O=Istituto Nazionale di Fisica Nucleare/CN=xsod14-s11-03-37.cr.cnaf.infn.it
 SupportCenter: Self Supported
 
