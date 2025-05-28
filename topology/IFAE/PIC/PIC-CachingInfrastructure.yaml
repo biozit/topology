@@ -23,7 +23,7 @@ Resources:
     FQDN: xcachevirgo.pic.es
     ID: 1048
     Services:
-      XRootD cache server:
+      Pelican origin:
         Description: StashCache cache server
     AllowedVOs:
       - ANY
