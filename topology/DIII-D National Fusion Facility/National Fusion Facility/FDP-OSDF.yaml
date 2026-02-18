@@ -4,7 +4,7 @@ GroupDescription:  Fusion Data Platform
 Resources:
 
   FDP_OSDF_CACHE:
-    Active: true
+    Active: false
     Description: FDP OSDF cache
     ContactLists:
       Administrative Contact:
