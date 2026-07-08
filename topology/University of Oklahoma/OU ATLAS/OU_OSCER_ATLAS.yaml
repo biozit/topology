@@ -2,6 +2,30 @@ GroupDescription: (No resource group description)
 GroupID: 89
 Production: true
 Resources:
+  OU_OSCER_OSDF_ORIGIN:
+    Active: true
+    Description: OU OSCER Pelican Origin
+    ContactLists:
+      Administrative Contact:
+        Primary:
+          ID: 2a7d2665e9aa0e66ab4131e53de14df72a51b74d
+          Name: Horst Severini
+        Secondary:
+          ID: 4be1a67e41871a12c36d34d01308553ea1e0c023
+          Name: Christopher Arnold Walker
+      Security Contact:
+        Primary:
+          ID: 2a7d2665e9aa0e66ab4131e53de14df72a51b74d
+          Name: Horst Severini
+        Secondary:
+          ID: 4be1a67e41871a12c36d34d01308553ea1e0c023
+          Name: Christopher Arnold Walker
+    FQDN: se0.oscer.ou.edu
+    Services:
+      Pelican origin:
+        Description: OU OSCER Pelican Origin
+    AllowedVOs:
+      - ANY
   OU_OSCER_ATLAS:
     Active: true
     ContactLists:
@@ -46,7 +70,7 @@ Resources:
       StorageCapacityMax: 10
       StorageCapacityMin: 10
   OU_OSCER_ATLAS_SE:
-    Active: true
+    Active: false
     ContactLists:
       Administrative Contact:
         Primary:
